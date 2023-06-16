@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<TLote_GNRE versao="2.00" xmlns="http://www.gnre.pe.gov.br">
+  <guias>
+  <TDadosGNRE versao="2.00">
+  <ufFavorecida>...</ufFavorecida>
+  <tipoGnre>...</tipoGnre>
+  <contribuinteEmitente>
+   <identificacao>
+    <CPF>...</CPF>
+    <CNPJ>...</CNPJ>
+    <IE>...</IE>
+   </identificacao>
+   <razaoSocial>...</razaoSocial>
+   <endereco>...</endereco>
+   <municipio>...</municipio>
+   <uf>...</uf>
+   <cep>...</cep>
+   <telefone>...</telefone>
+  </contribuinteEmitente>
+  <itensGNRE>
+   <item>
+    <receita>...</receita>
+    <detalhamentoReceita>...</detalhamentoReceita>
+    <documentoOrigem tipo="..." >...</documentoOrigem>
+    <produto>...</produto>
+    <referencia>
+     <periodo>...</periodo>
+     <mes>...</mes>
+     <ano>...</ano>
+     <parcela>...</parcela>
+    </referencia>
+    <dataVencimento>...</dataVencimento>
+    <valor tipo="..." >...</valor>
+    <convenio>...</convenio>
+    <contribuinteDestinatario>
+     <identificacao>
+      <CPF>...</CPF>
+      <CNPJ>...</CNPJ>
+      <IE>...</IE>
+     </identificacao>
+     <razaoSocial>...</razaoSocial>
+     <municipio>...</municipio>
+    </contribuinteDestinatario>
+    <camposExtras>
+     <campoExtra>
+      <codigo>
+      <valor>
+     </campoExtra>
+     <campoExtra>
+      <codigo>
+      <valor>
+     </campoExtra>
+     <campoExtra>
+      <codigo>
+      <valor>
+     </campoExtra>
+    </camposExtras>
+   </item>
+  </itensGNRE>
+   <valorGNRE>...</valorGNRE>
+   <dataPagamento>...</dataPagamento>
+  </TDadosGNRE> 
+  </guias>
+</TLote_GNRE>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<TLote_GNRE versao="2.00" xmlns="http://www.gnre.pe.gov.br">
+  <guias>
+  <TDadosGNRE versao="2.00">
+  <ufFavorecida>SIGLA_UF</ufFavorecida>
+  <tipoGnre>0</tipoGnre>
+  <contribuinteEmitente>
+   <identificacao>
+    <CNPJ>03102452000172</CNPJ>
+   </identificacao>
+   <razaoSocial>GRINGS E FILHOS LTDA</razaoSocial>
+   <endereco>RUA EISLEBEN CEREJA CORREA FONSECA, 200. DISTRITO INDUSTRIAL</endereco>
+   <municipio>49102</municipio>
+   <uf>SP</uf>
+   <cep>13877776</cep>
+   <telefone>(19)36241304</telefone>
+  </contribuinteEmitente>
+  <itensGNRE>
+   <item>
+    <receita>100102</receita>
+    <documentoOrigem tipo="22" >CHAVE_NFE</documentoOrigem>
+    <dataVencimento>AAAA/MM/DD</dataVencimento>
+    <valor tipo="21" >XXXXX.XX</valor> 
+   </item>
+  </itensGNRE>
+   <valorGNRE>...</valorGNRE>
+   <dataPagamento>...</dataPagamento>
+  </TDadosGNRE> 
+  </guias>
+</TLote_GNRE>
+
+REPLACE_STR("CHAVE_NFE",nota.chave_nfe)
